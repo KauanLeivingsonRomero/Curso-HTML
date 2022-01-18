@@ -27,12 +27,14 @@ th {
   color: white;
 }
 
-tbody > tr:nth-child(odd){
-  background-color: rgb(189, 90, 235);
+thead > tr > th {
+  position: sticky;
+  top: -2px;
+  background-color: #383838;
 }
 
-tbody >tr:nth-child(even) {
-  background-color: rgb(250, 232, 73);
+tbody > tr:nth-child(2n) {
+  background-color: lightgray;
 }
 
 .number {
